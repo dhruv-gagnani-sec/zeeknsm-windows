@@ -1,0 +1,95 @@
+<!--
+  ZeekNSM — Wazuh Agent Configuration Snippet
+  =============================================
+  Add the <localfile> blocks below to the Wazuh agent's ossec.conf
+  on the monitored Windows host:
+
+    C:\Program Files (x86)\ossec-agent\ossec.conf
+
+  After adding, restart the agent:
+    net stop WazuhSvc && net start WazuhSvc
+
+  Notes:
+  - log_format "json" activates Wazuh's built-in JSON pre-decoder,
+    which maps every top-level field to data.<fieldname>.
+  - The wildcard path C:\zeek\logs\*.log picks up all rotated files
+    automatically (conn_2026-04-09_*.log, dns_2026-04-09_*.log, …)
+  - "only-future-events" is set to "no" so Wazuh ingests any log
+    lines written since the agent last ran (useful after restarts).
+-->
+
+<ossec_config>
+
+  <!-- ============================================================
+       ZeekNSM: conn.log  — connection records
+       ============================================================ -->
+  <localfile>
+    <log_format>json</log_format>
+    <location>C:\zeek\logs\conn_*.log</location>
+    <label key="zeek.stream">conn</label>
+    <only-future-events>no</only-future-events>
+    <ignore_binaries>no</ignore_binaries>
+  </localfile>
+
+  <!-- ============================================================
+       ZeekNSM: dns.log  — DNS transactions
+       ============================================================ -->
+  <localfile>
+    <log_format>json</log_format>
+    <location>C:\zeek\logs\dns_*.log</location>
+    <label key="zeek.stream">dns</label>
+    <only-future-events>no</only-future-events>
+  </localfile>
+
+  <!-- ============================================================
+       ZeekNSM: http.log  — HTTP request+response pairs
+       ============================================================ -->
+  <localfile>
+    <log_format>json</log_format>
+    <location>C:\zeek\logs\http_*.log</location>
+    <label key="zeek.stream">http</label>
+    <only-future-events>no</only-future-events>
+  </localfile>
+
+  <!-- ============================================================
+       ZeekNSM: ssl.log  — TLS sessions + JA3/JA3S fingerprints
+       ============================================================ -->
+  <localfile>
+    <log_format>json</log_format>
+    <location>C:\zeek\logs\ssl_*.log</location>
+    <label key="zeek.stream">ssl</label>
+    <only-future-events>no</only-future-events>
+  </localfile>
+
+  <!-- ============================================================
+       ZeekNSM: notice.log  — detection engine alerts
+       Priority: HIGH — these lines contain actionable detections
+       ============================================================ -->
+  <localfile>
+    <log_format>json</log_format>
+    <location>C:\zeek\logs\notice_*.log</location>
+    <label key="zeek.stream">notice</label>
+    <only-future-events>no</only-future-events>
+  </localfile>
+
+  <!-- ============================================================
+       ZeekNSM: weird.log  — protocol anomalies
+       ============================================================ -->
+  <localfile>
+    <log_format>json</log_format>
+    <location>C:\zeek\logs\weird_*.log</location>
+    <label key="zeek.stream">weird</label>
+    <only-future-events>no</only-future-events>
+  </localfile>
+
+  <!-- ============================================================
+       ZeekNSM: stats.log  — periodic capture statistics
+       ============================================================ -->
+  <localfile>
+    <log_format>json</log_format>
+    <location>C:\zeek\logs\stats_*.log</location>
+    <label key="zeek.stream">stats</label>
+    <only-future-events>no</only-future-events>
+  </localfile>
+
+</ossec_config>

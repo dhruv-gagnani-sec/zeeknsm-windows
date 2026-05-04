@@ -1,0 +1,70 @@
+<!-- 
+  Wazuh Rules for ZeekNSM (Windows)
+  This file defines how Wazuh should interpret the JSON logs from our custom engine.
+-->
+
+<group name="zeek,">
+
+  <!-- Base rule: match any Zeek log (decided by the 'peer' or 'ts' field) -->
+  <rule id="100100" level="0">
+    <decoded_as>json</decoded_as>
+    <field name="ts">\.+</field>
+    <description>Zeek log event.</description>
+  </rule>
+
+  <!-- Connection logs -->
+  <rule id="100101" level="3">
+    <if_sid>100100</if_sid>
+    <field name="proto">\.+</field>
+    <description>Zeek: Connection Log - $(id.orig_h) -> $(id.resp_h) ($(proto))</description>
+  </rule>
+
+  <!-- DNS queries -->
+  <rule id="100102" level="3">
+    <if_sid>100100</if_sid>
+    <field name="query">\.+</field>
+    <description>Zeek: DNS Query - $(query) from $(id.orig_h)</description>
+    <group>dns,</group>
+  </rule>
+
+  <!-- SSL/TLS sessions -->
+  <rule id="100103" level="3">
+    <if_sid>100100</if_sid>
+    <field name="server_name">\.+</field>
+    <description>Zeek: SSL Session - $(server_name) [$(cipher)]</description>
+    <group>ssl,tls,</group>
+  </rule>
+
+  <!-- Weirds (Anomalies) -->
+  <rule id="100104" level="5">
+    <if_sid>100100</if_sid>
+    <field name="name">\.+</field> <!-- 'name' in weird.log -->
+    <description>Zeek: Protocol Anomaly - $(name) ($uid)</description>
+    <group>weird,anomaly,</group>
+  </rule>
+
+  <!-- Notices (Detections) -->
+  <rule id="100105" level="7">
+    <if_sid(100100</if_sid>
+    <field name="note">\.+</field> <!-- 'note' in notice.log -->
+    <description>Zeek: Security Notice - $(note): $(msg)</description>
+    <group>notice,security,</group>
+  </rule>
+
+  <!-- Specific Alert: Possible Port Scan -->
+  <rule id="100106" level="10">
+    <if_sid>100105</if_sid>
+    <field name="note">Scan::Port_Scan</field>
+    <description>Zeek: High Priority - Port Scan detected from $(id.orig_h)!</description>
+    <group>notice,security,scan,</group>
+  </rule>
+
+  <!-- Specific Alert: DNS Tunneling Detection -->
+  <rule id="100107" level="10">
+    <if_sid>100105</if_sid>
+    <field name="note">Detection::DNS_Tunnel</field>
+    <description>Zeek: High Priority - Possible DNS Tunneling from $(id.orig_h) (Query: $(query))</description>
+    <group>notice,security,dns,tunneling,</group>
+  </rule>
+
+</group>

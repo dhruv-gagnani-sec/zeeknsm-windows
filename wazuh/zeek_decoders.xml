@@ -1,0 +1,118 @@
+<!--
+  ZeekNSM Wazuh Decoders
+  File: /var/ossec/etc/decoders/zeek_decoders.xml   (Linux manager)
+        C:\Program Files (x86)\ossec-agent\...       (Windows agent — not used here)
+
+  Place this file on the Wazuh MANAGER under:
+    /var/ossec/etc/decoders/zeek_decoders.xml
+
+  The agent monitors the zeek log directory with log_format "json".
+  Wazuh's built-in JSON pre-decoder extracts all top-level fields as
+  data.<fieldname>.  These decoders layer on top to label the log stream
+  (conn / dns / http / ssl / notice / weird / stats) so that rules can
+  match precisely on stream-specific fields.
+
+  Field mapping (Zeek log → Wazuh data.*):
+    data.ts          — Unix timestamp (all streams)
+    data.uid         — Connection UID  (all streams except stats)
+    data.note        — Detection note  (notice.log)
+    data.name        — Weird event name (weird.log)
+    data.conn_state  — TCP state string (conn.log)
+    data.query       — DNS query name  (dns.log)
+    data.method      — HTTP method     (http.log)
+    data.version     — TLS version     (ssl.log)
+    data.id_orig_h / data.id_orig_p / data.id_resp_h / data.id_resp_p
+-->
+
+<!-- ============================================================
+     Root ZeekNSM decoder
+     Matches every log line produced by ZeekNSM (NDJSON, starts with {"ts":)
+     ============================================================ -->
+<decoder name="zeek-nsm">
+  <prematch>{"ts":</prematch>
+</decoder>
+
+<!-- ============================================================
+     conn.log  —  identified by the presence of "conn_state":
+     ============================================================ -->
+<decoder name="zeek-conn">
+  <parent>zeek-nsm</parent>
+  <use_own_name>true</use_own_name>
+  <prematch>"conn_state":</prematch>
+
+  <!-- Extract key fields for rule matching -->
+  <regex>"uid":"(\.+?)","id\.orig_h":"(\.+?)","id\.orig_p":(\d+),"id\.resp_h":"(\.+?)","id\.resp_p":(\d+),"proto":"(\.+?)".*"service":"(\.+?)".*"conn_state":"(\.+?)"</regex>
+  <order>uid,src_ip,src_port,dst_ip,dst_port,protocol,service,conn_state</order>
+</decoder>
+
+<!-- ============================================================
+     dns.log  —  identified by the presence of "qtype_name":
+     ============================================================ -->
+<decoder name="zeek-dns">
+  <parent>zeek-nsm</parent>
+  <use_own_name>true</use_own_name>
+  <prematch>"qtype_name":</prematch>
+
+  <regex>"uid":"(\.+?)","id\.orig_h":"(\.+?)","id\.orig_p":(\d+),"id\.resp_h":"(\.+?)","id\.resp_p":(\d+).*"query":"(\.+?)".*"qtype_name":"(\.+?)".*"rcode_name":"(\.+?)"</regex>
+  <order>uid,src_ip,src_port,dst_ip,dst_port,dns_query,dns_qtype,dns_rcode</order>
+</decoder>
+
+<!-- ============================================================
+     http.log  —  identified by the presence of "method":
+     ============================================================ -->
+<decoder name="zeek-http">
+  <parent>zeek-nsm</parent>
+  <use_own_name>true</use_own_name>
+  <prematch>"method":</prematch>
+
+  <regex>"uid":"(\.+?)","id\.orig_h":"(\.+?)","id\.orig_p":(\d+),"id\.resp_h":"(\.+?)","id\.resp_p":(\d+).*"method":"(\.+?)".*"host":"(\.+?)".*"uri":"(\.+?)".*"status_code":(\d+)</regex>
+  <order>uid,src_ip,src_port,dst_ip,dst_port,http_method,http_host,url,http_status</order>
+</decoder>
+
+<!-- ============================================================
+     ssl.log  —  identified by "cipher": and "ja3":
+     ============================================================ -->
+<decoder name="zeek-ssl">
+  <parent>zeek-nsm</parent>
+  <use_own_name>true</use_own_name>
+  <prematch>"ja3":</prematch>
+
+  <regex>"uid":"(\.+?)","id\.orig_h":"(\.+?)","id\.orig_p":(\d+),"id\.resp_h":"(\.+?)","id\.resp_p":(\d+).*"version":"(\.+?)".*"cipher":"(\.+?)".*"server_name":"(\.+?)".*"ja3":"(\.+?)".*"ja3s":"(\.+?)"</regex>
+  <order>uid,src_ip,src_port,dst_ip,dst_port,tls_version,tls_cipher,tls_sni,ja3,ja3s</order>
+</decoder>
+
+<!-- ============================================================
+     notice.log  —  identified by "note":
+     ============================================================ -->
+<decoder name="zeek-notice">
+  <parent>zeek-nsm</parent>
+  <use_own_name>true</use_own_name>
+  <prematch>"note":</prematch>
+
+  <regex>"uid":"(\.+?)","id\.orig_h":"(\.+?)","id\.orig_p":(\d+),"id\.resp_h":"(\.+?)","id\.resp_p":(\d+).*"note":"(\.+?)".*"msg":"(\.+?)"</regex>
+  <order>uid,src_ip,src_port,dst_ip,dst_port,notice_type,msg</order>
+</decoder>
+
+<!-- ============================================================
+     weird.log  —  identified by "name": without "note":
+     ============================================================ -->
+<decoder name="zeek-weird">
+  <parent>zeek-nsm</parent>
+  <use_own_name>true</use_own_name>
+  <prematch>"name":</prematch>
+
+  <regex>"uid":"(\.+?)","id\.orig_h":"(\.+?)","id\.orig_p":(\d+),"id\.resp_h":"(\.+?)","id\.resp_p":(\d+).*"name":"(\.+?)".*"addl":"(\.+?)"</regex>
+  <order>uid,src_ip,src_port,dst_ip,dst_port,weird_name,addl</order>
+</decoder>
+
+<!-- ============================================================
+     stats.log  —  identified by "pkts_proc":
+     ============================================================ -->
+<decoder name="zeek-stats">
+  <parent>zeek-nsm</parent>
+  <use_own_name>true</use_own_name>
+  <prematch>"pkts_proc":</prematch>
+
+  <regex>"pkts_proc":(\d+).*"bytes_recv":(\d+).*"pkts_dropped":(\d+).*"active_conns":(\d+)</regex>
+  <order>pkts_proc,bytes_recv,pkts_dropped,active_conns</order>
+</decoder>
