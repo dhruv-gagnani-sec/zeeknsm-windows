@@ -1,8 +1,29 @@
 # ZeekNSM for Windows
 
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=flat-square)](#requirements)
+[![Language](https://img.shields.io/badge/language-C-555555?style=flat-square)](#repository-layout)
+[![Build](https://img.shields.io/badge/build-CMake-064F8C?style=flat-square)](#quick-start)
+[![SIEM](https://img.shields.io/badge/SIEM-Wazuh-005571?style=flat-square)](#wazuh-integration)
+
 ZeekNSM is a Zeek-inspired network security monitor built for Windows. It captures traffic with raw Windows sockets, tracks flows, parses common protocols, writes Zeek-style JSON logs, and ships with Wazuh integration files for alerting and SIEM ingestion.
 
-Made using Antigravity.
+> Made using Antigravity.
+
+## Table of Contents
+
+- [What Can You Do With It?](#what-can-you-do-with-it)
+- [Quick Start](#quick-start)
+- [Features](#features)
+- [Repository Layout](#repository-layout)
+- [Requirements](#requirements)
+- [Installation Options](#installation-options)
+- [Configuration](#configuration)
+- [Log Streams](#log-streams)
+- [Wazuh Integration](#wazuh-integration)
+- [Troubleshooting](#troubleshooting)
+- [Project Status](#project-status)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## What Can You Do With It?
 
@@ -19,7 +40,7 @@ Pick the path that matches what you want to do.
 | I want to... | Use this |
 | --- | --- |
 | Test it quickly | Run in console mode |
-| Keep it running after reboot | Install as a Windows service | 
+| Keep it running after reboot | Install as a Windows service |
 | Send logs to Wazuh | Use the files in `wazuh/` |
 | Tune detection behavior | Edit `zeek.conf` |
 
@@ -28,6 +49,12 @@ Pick the path that matches what you want to do.
 ```powershell
 cmake -S . -B build
 cmake --build build --config Release
+```
+
+The executable is created at:
+
+```text
+build\zeek-nsm.exe
 ```
 
 ### 2. Run a quick test
@@ -86,6 +113,15 @@ stats.log
 - Administrator privileges for packet capture and service installation
 - CMake 3.16 or newer
 - A C compiler supported by CMake, such as MSVC or MinGW-w64
+
+## Clone
+
+```powershell
+git clone https://github.com/<your-username>/<your-repository>.git
+cd "<your-repository>"
+```
+
+Replace `<your-username>` and `<your-repository>` with your GitHub details after publishing.
 
 ## Installation Options
 
@@ -237,6 +273,20 @@ Typical setup:
 3. Copy `wazuh/zeek_rules.xml` to the Wazuh manager rules directory.
 4. Restart the Wazuh agent and manager services.
 
+## Example Output
+
+Example `conn.log` record:
+
+```json
+{"ts":1712670000.123456,"uid":"Cabc123","id.orig_h":"192.168.1.10","id.orig_p":51524,"id.resp_h":"93.184.216.34","id.resp_p":443,"proto":"tcp","service":"ssl","duration":1.234000,"orig_bytes":421,"resp_bytes":2048,"conn_state":"SF","orig_pkts":5,"resp_pkts":6,"orig_ip_bytes":621,"resp_ip_bytes":2288}
+```
+
+Example `notice.log` record:
+
+```json
+{"ts":1712670001.123456,"uid":"Cnotice1","id.orig_h":"192.168.1.10","id.orig_p":53120,"id.resp_h":"192.168.1.1","id.resp_p":80,"note":"Scan::Port_Scan","msg":"Possible port scan detected","sub":"threshold exceeded","actions":["Notice::ACTION_LOG"]}
+```
+
 ## Troubleshooting
 
 | Problem | Try this |
@@ -247,7 +297,7 @@ Typical setup:
 | Wazuh does not show events | Confirm the Wazuh agent is reading `C:\zeek\logs\*.log` |
 | Too many alerts | Raise thresholds in the `[detection]` section |
 
-## Project Checklist
+## Project Status
 
 - [x] Windows packet capture
 - [x] Zeek-style JSON logs
@@ -257,6 +307,24 @@ Typical setup:
 - [x] Wazuh integration examples
 - [ ] Add screenshots or sample dashboards
 - [ ] Add a formal license
+
+## Contributing
+
+Contributions are welcome. Good first areas to improve:
+
+- Add sample screenshots or Wazuh dashboard examples
+- Expand protocol parsing coverage
+- Add automated build instructions for GitHub Actions
+- Improve detection rules
+- Add tests for parsers and configuration loading
+
+Before opening a pull request, please make sure the project builds successfully with CMake.
+
+## Security Notes
+
+- Run ZeekNSM only on systems and networks you are authorized to monitor.
+- Packet capture requires Administrator privileges on Windows.
+- Review logs before sharing them publicly because they can contain IP addresses, hostnames, URLs, and other sensitive metadata.
 
 ## Notes
 
