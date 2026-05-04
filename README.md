@@ -19,7 +19,7 @@ Pick the path that matches what you want to do.
 | I want to... | Use this |
 | --- | --- |
 | Test it quickly | Run in console mode |
-| Keep it running after reboot | Install as a Windows service |
+| Keep it running after reboot | Install as a Windows service | 
 | Send logs to Wazuh | Use the files in `wazuh/` |
 | Tune detection behavior | Edit `zeek.conf` |
 
