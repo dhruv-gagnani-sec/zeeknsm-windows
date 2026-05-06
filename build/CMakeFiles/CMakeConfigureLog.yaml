@@ -1,0 +1,1654 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      gcc.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      gcc.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/ADMIN/go/bin/"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ar.com"
+    found: "C:/msys64/ucrt64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/ADMIN/go/bin/"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ranlib.com"
+    found: "C:/msys64/ucrt64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/ADMIN/go/bin/"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/strip.com"
+    found: "C:/msys64/ucrt64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/ADMIN/go/bin/"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ld.com"
+    found: "C:/msys64/ucrt64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/ADMIN/go/bin/"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/nm.com"
+    found: "C:/msys64/ucrt64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/ADMIN/go/bin/"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/objdump.com"
+    found: "C:/msys64/ucrt64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/ADMIN/go/bin/"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/objcopy.com"
+    found: "C:/msys64/ucrt64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/ADMIN/go/bin/"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/readelf.com"
+    found: "C:/msys64/ucrt64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/ADMIN/go/bin/"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/dlltool.com"
+    found: "C:/msys64/ucrt64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/ADMIN/go/bin/"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/addr2line.com"
+    found: "C:/msys64/ucrt64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/ADMIN/go/bin/"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/tapi.com"
+      - "C:/msys64/ucrt64/bin/tapi.exe"
+      - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Program Files/Go/bin/tapi.com"
+      - "C:/Program Files/Go/bin/tapi.exe"
+      - "C:/Program Files/Go/bin/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/tapi.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/tapi.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/Scripts/tapi"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/tapi.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/tapi.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/tapi"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/tapi.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/tapi.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Scripts/tapi"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/tapi.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/tapi.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/tapi"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/tapi.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/tapi.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Launcher/tapi"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/ADMIN/go/bin/tapi.com"
+      - "C:/Users/ADMIN/go/bin/tapi.exe"
+      - "C:/Users/ADMIN/go/bin/tapi"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/ADMIN/AppData/Roaming/npm/tapi"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/tapi.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/tapi.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Antigravity/bin/tapi"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/tapi.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/tapi.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Kiro/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ADMIN\\go\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/SOC/Zeek v2 Windows/build/CMakeFiles/CMakeScratch/TryCompile-355ell"
+      binary: "D:/SOC/Zeek v2 Windows/build/CMakeFiles/CMakeScratch/TryCompile-355ell"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SOC/Zeek v2 Windows/build/CMakeFiles/CMakeScratch/TryCompile-355ell'
+        
+        Run Build Command(s): C:/msys64/ucrt64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_89194/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_89194.dir\\build.make CMakeFiles/cmTC_89194.dir/build
+        mingw32-make[1]: Entering directory 'D:/SOC/Zeek v2 Windows/build/CMakeFiles/CMakeScratch/TryCompile-355ell'
+        Building C object CMakeFiles/cmTC_89194.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_89194.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCCompilerABI.c
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_89194.dir\\build.make:80: CMakeFiles/cmTC_89194.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'D:/SOC/Zeek v2 Windows/build/CMakeFiles/CMakeScratch/TryCompile-355ell'
+        mingw32-make: *** [Makefile:133: cmTC_89194/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/msys64/ucrt64/bin/gcc.exe"
+    directories:
+      source: "D:/SOC/Zeek v2 Windows/build/CMakeFiles/CMakeScratch/TryCompile-e4cvv3"
+      binary: "D:/SOC/Zeek v2 Windows/build/CMakeFiles/CMakeScratch/TryCompile-e4cvv3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SOC/Zeek v2 Windows/build/CMakeFiles/CMakeScratch/TryCompile-e4cvv3'
+        
+        Run Build Command(s): C:/msys64/ucrt64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_2befb/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2befb.dir\\build.make CMakeFiles/cmTC_2befb.dir/build
+        mingw32-make[1]: Entering directory 'D:/SOC/Zeek v2 Windows/build/CMakeFiles/CMakeScratch/TryCompile-e4cvv3'
+        Building C object CMakeFiles/cmTC_2befb.dir/testCCompiler.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_2befb.dir\\testCCompiler.c.obj -c "D:\\SOC\\Zeek v2 Windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e4cvv3\\testCCompiler.c"
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_2befb.dir\\build.make:80: CMakeFiles/cmTC_2befb.dir/testCCompiler.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'D:/SOC/Zeek v2 Windows/build/CMakeFiles/CMakeScratch/TryCompile-e4cvv3'
+        mingw32-make: *** [Makefile:133: cmTC_2befb/fast] Error 2
+        
+      exitCode: 2
+...
